@@ -10,6 +10,6 @@ while True:
     if x.lower() == "end":
         break
     else:
-        os.system("youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 " + x)
+        os.system("youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 -o \"%(title)s.%(ext)s\" " + x)
         print("your video has been downloaded")
 

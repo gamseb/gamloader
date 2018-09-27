@@ -10,6 +10,6 @@ while True:
     if x.lower() == "end":
         break
     else:
-        os.system("youtube-dl --extract-audio --audio-format mp3 " + x)
+        os.system("youtube-dl --extract-audio --audio-format mp3 -o \"%(title)s.%(ext)s\" " + x)
         print("your video has been downloaded")
 
