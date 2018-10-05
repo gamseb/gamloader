@@ -8,3 +8,7 @@
 <li>Repeat as many times as you like</li>
 <li>Quit the script with <strong>end</strong></li>
 </ol>
+<h2>Dependencies:</h2>
+<ul>
+  <li><a href="https://rg3.github.io/youtube-dl/">youtube-dl</a></li>
+</ul>
