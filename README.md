@@ -11,4 +11,5 @@
 <h2>Dependencies:</h2>
 <ul>
   <li><a href="https://rg3.github.io/youtube-dl/">youtube-dl</a></li>
+  <li>ffmpeg</li>
 </ul>
