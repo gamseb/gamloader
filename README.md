@@ -1,5 +1,6 @@
 <h1>Youtube-dl based script for easy download from youtube</h1>
 <p>This is a simple script I have written in python to facilitate the download of youtube videos. In order to use it, you need to install the dependencies.<p/>
+<img src="screenshot.png">
 <ol><strong>How to use the script on linux:</strong>
 <li>Open the terminal</li>
 <li><strong>CD</strong> to the directory where we want to download to</li>
